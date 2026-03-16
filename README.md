@@ -8,9 +8,8 @@ This repository contains the computer-readable implementation of the analytic re
 **File:** `PolarizedGluonFusion.m`
 
 ### Description
-This module implements the analytic expressions for the polarized gluon-initiated channel.
 
-* **Analytic Content:** The file provides the full implementation of **Equation 4.16** as derived in the main text of the manuscript.
+This module implements the analytic expressions for the polarized gluon-initiated channel,  as derived in **Equation 4.16** the main text of the manuscript.
 
 ---
 
@@ -18,13 +17,9 @@ This module implements the analytic expressions for the polarized gluon-initiate
 **File:** `PolarizedQuarkScattering.m`
 
 ### Description
-This module focuses on the quark-initiated scattering processes , providing both the fundamental coefficients and the integrated results.
+This module focuses on the quark-initiated scattering processes , providing both the fundamental coefficients and the integrated results.  Coefficient Sets ($S_i, N_i, V_i$) are included and reported the
+the **inclusive polarized quark scattering functions** which are defined as:
 
-### A. Coefficient Sets ($S_i, N_i, V_i$)
-
-### B. Inclusive Functions
-This module includes the **inclusive polarized quark scattering functions**. These results are obtained by performing the analytic integration over the phase-space variable $y$:
-
-$\int_{0}^{1} \hat{g}_{i}^{\text{QS}} (\hat{s}_1, \hat{t}_1 (y)) \, dy$
+$$\hat{g}_{i}^{\rm incl}=\int_{0}^{1} \hat{g}_{i}^{\text{QS}} (\hat{s}_1, \hat{t}_1 (y)) \, dy$$
 
 
